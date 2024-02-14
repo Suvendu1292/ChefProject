@@ -10,8 +10,8 @@ end
 
 include recipe 'aws'
 aws_creds=data_bag_item('aws', 'credentials')
-aws_access_key_id= aws_creds['AKIA3D5UWBF5XF4RBQUR']
-aws_secret_key_id= aws_creds['Cu98W3e684BsAo9ehf2mU9Lu2QFP5ROQrrVpfOXI']
+aws_access_key_id= aws_creds['enter your access key']
+aws_secret_key_id= aws_creds['enter your secret key']
 aws_region= 'ap-south-1a'
 
 aws_instance 'suvendu-first-ec2instance-using-chef' do
